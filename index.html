@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 class="title">Сервис комментариев с фильтром</h1>
+    <p class="subtitle">Оставьте ваш комментарий</p>
+    <div class="container">
+      <div class="container__text-typing">
+        <h6 class="container__item">Введите ваше Имя:</h6>
+        <input id="name" type="text" />
+        <h6 class="container__item">Введите сслыку вашего аватара:</h6>
+        <input id="url" type="url" />
+        <h6 class="container__item">Оставьте ваш комментарий</h6>
+        <textarea name="message" id="textarea" cols="50" rows="10"></textarea>
+        <div>
+          <button id="btn">Отправить</button>
+        </div>
+      </div>
+      <div class="container__feedback">
+        <h2 class="container__chat">Чат</h2>
+        <div id="wrap"></div>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
